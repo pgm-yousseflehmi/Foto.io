@@ -1,0 +1,50 @@
+article {
+    background-color: var(--color);
+    margin: 0 100px;
+    padding-bottom: 30px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  
+  h1{
+    margin-bottom: 4rem;
+    color: white;
+  }
+
+
+  .wrapper {
+    text-align: center;
+    width: 30rem;
+    max-width: 100%;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  
+  .card {
+    margin-bottom: 2rem;
+    text-align: left;
+    padding: 1rem;
+    box-shadow: 0px 4px 4px #888888;
+    border-radius: 1rem;
+    background: rgb(255, 255, 255);
+  }
+  
+  
+  
+  .card__image {
+    width: 8rem;
+    max-width: 40%;
+    float: left;
+    margin: 0 1rem 1rem 0;
+  }
+  
+  .card__image--tiny {
+    width: 2rem;
+  }
